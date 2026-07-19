@@ -1,0 +1,41 @@
+{
+  "name": "@leichtgewicht/presentation-pkg-mgr-qs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "oxfmt"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "oxfmt": "^0.59.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5"
+  },
+  "allowScripts": {
+    "fsevents": false
+  },
+  "description": "Held a presentation on July 18th 2026 about Package Managers. These are the slides.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinheidegger/presentation-pkg-mgr-qs.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/martinheidegger/presentation-pkg-mgr-qs/issues"
+  },
+  "homepage": "https://github.com/martinheidegger/presentation-pkg-mgr-qs#readme"
+}
