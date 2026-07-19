@@ -3,9 +3,9 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 // Vite config — https://vitejs.dev/config/
-export default defineConfig(({}) => {
+export default defineConfig(({ mode }) => {
   return {
-    base: "/",
+    base: mode === "production" ? "/presentation-pkg-mgr-qs" : "/",
     build: {
       sourcemap: true,
       minify: true,
